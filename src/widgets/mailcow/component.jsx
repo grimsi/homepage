@@ -17,7 +17,6 @@ export default function Component({ service }) {
   if (!resultData) {
     return (
       <Container service={service}>
-        ,
         <Block label="mailcow.mailboxes" />
         <Block label="mailcow.aliases" />
         <Block label="mailcow.quarantined" />
